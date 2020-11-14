@@ -1,0 +1,65 @@
+.Navi {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.NaviBody {
+    width: 450px;
+    height: 450px;
+    background: rgb(105, 206, 231);
+    border-radius: 50%;
+    position: absolute;
+    margin: 0 auto;
+    top: 500px;
+    left: 0;
+    right: 0;
+    
+ 
+    
+}
+.TopLeftWing {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    background: rgb(187, 233, 248);
+    border-radius: 100% 5px 100% 10%;
+    top: 310px;
+    left: 500px;
+    transform: rotate(-75deg);
+  
+}
+.TopRightWing{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    background: rgb(187, 233, 248);
+    border-radius: 5px 100% 10%;
+    top: 300px;
+    right: 515px;
+    transform: rotate(75deg)
+   
+
+}
+
+.BottomRightWing {
+    width: 175px;
+    height: 275px;
+    position: absolute;
+    background: rgb(187, 233, 248);
+    border-radius: 30% 180% 25% 130%;
+    bottom: 20px;
+    right: 615px;
+    transform: rotate(-35deg);
+    
+}
+.BottomLeftWing{
+    width: 175px;
+    height: 275px;
+    position: absolute;
+    background: rgb(187, 233, 248);
+    border-radius: 180% 30% 130% 25%;
+    top: 800px;
+    left: 620px;
+    transform: rotate(30deg);
+
+}
